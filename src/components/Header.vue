@@ -10,7 +10,7 @@ defineProps({
   <header class="d-flex justify-content-between border-bottom-gray-300-3 px-2">
     <router-link class="text-black text-decoration-none" to="/">
       <div class="d-flex align-items-center gap-1 py-1/4">
-        <img src="/logo.png" alt="Logo" class="w-20 -mt-1/1" />
+        <img src="/public/logo.png" alt="Logo" class="w-20 -mt-1/1" />
         <div>
           <h2 class="fw-bold fs-20 text-uppercase mt-0/6">Vue Sneakers</h2>
           <p class="tx-gray-500 -mt-0/4">Магазин лучших кроссовок</p>

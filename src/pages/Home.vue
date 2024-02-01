@@ -134,7 +134,11 @@ watch(filters, fetchItems);
         <option value="-price">По цене (дорогие)</option>
       </select>
       <div class="relative">
-        <img class="absolute left-0 mt-0/9 ms-0/9" src="/search.svg" alt="" />
+        <img
+          class="absolute left-0 mt-0/9 ms-0/9"
+          src="/public/search.svg"
+          alt=""
+        />
         <input
           @input="onChangeSearchInput"
           class="border-1 rounded-10 py-0/6 ps-2/5 pe-0/4 outline-none me-1"

@@ -18,7 +18,7 @@ const visibleFavoriteButton = Boolean(props.onClickAdd);
   >
     <img
       v-if="visibleFavoriteButton"
-      :src="!isFavorite ? '/like-1.svg' : '/like-2.svg'"
+      :src="!isFavorite ? '/public/like-1.svg' : '/public/like-2.svg'"
       alt="like1"
       class="absolute top-8 left-8"
       @click="onClickFavorite"
@@ -35,7 +35,7 @@ const visibleFavoriteButton = Boolean(props.onClickAdd);
         v-if="visibleFavoriteButton"
         class=""
         @click="onClickAdd"
-        :src="!isAdded ? '/plus.svg' : '/checked.svg'"
+        :src="!isAdded ? '/public/plus.svg' : '/public/checked.svg'"
         alt=""
       />
     </div>

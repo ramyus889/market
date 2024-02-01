@@ -21,7 +21,7 @@ defineProps({
         <img
           @click="emit('onClickRemove')"
           class="-mt-0/6 opacity-40 opacityH-100 transition-3 cursor-pointer"
-          src="/close.svg"
+          src="/public/close.svg"
           alt=""
         />
       </div>

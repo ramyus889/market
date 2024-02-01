@@ -26,7 +26,7 @@ const buttonDisabled = computed(() =>
       v-if="!totalPrice"
       title="Корзина пустая"
       description="Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ"
-      imageUrl="/package-icon.png"
+      imageUrl="/public/package-icon.png"
     />
 
     <CartListItem v-if="totalPrice" />
